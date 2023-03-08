@@ -18,6 +18,7 @@ public class Art {
     }
 
     static void drawTheTree(int height) {
+
         for (int i = 0; i <= height; i++) {
             // print spaces
             for (int j = 0; j < height - i; j++) {
